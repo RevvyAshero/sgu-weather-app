@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("asset/fonts/Roboto/Roboto-Light.ttf");
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+h1 {
+  color: #007BFF;
+  font-size: 24px;
+}
+
+.container {
+  text-align: center;
+  font-family: "Roboto";
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.centerContainer {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.spacer {
+  height: 20px;
+}
+
+th {
+  text-align: left;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.spacer {
+  height: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+#cityNameTextField {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#temperatureField,
+#feelsLikeField,
+#humidityField,
+#pressureField {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.spinner {
+  z-index: 1031;
+  margin-right: auto;
+  margin-left: auto;
+
+}
